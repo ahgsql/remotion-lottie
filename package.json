@@ -1,0 +1,43 @@
+{
+  "name": "remotion-lottie",
+  "version": "1.0.3",
+  "description": "Lottie / Bodymovin Controller for Remotion.",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "publish": "npm run build && npm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahgsql/remotion-lottie.git"
+  },
+  "keywords": [
+    "react",
+    "remotion",
+    "lottie",
+    "after effects",
+    "bodymovin"
+  ],
+  "author": "ahgsql",
+  "license": "MIT",
+  "dependencies": {
+    "lottie-react": "^2.1.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "remotion": "^2.1.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.16",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/preset-react": "^7.13.13",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^18.0.0",
+    "@rollup/plugin-node-resolve": "^11.2.1",
+    "react": "^17.0.2",
+    "rollup": "^2.46.0",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
