@@ -22,6 +22,8 @@ yarn add remotion-lottie
 
 ## Usage
 
+Load your animation into Lottier Component.
+
 ### Load Library and Lottie JSON file
 
 ```jsx
