@@ -1,6 +1,6 @@
 {
   "name": "remotion-lottie",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Lottie / Bodymovin Controller for Remotion.",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",

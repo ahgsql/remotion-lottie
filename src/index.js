@@ -1,4 +1,5 @@
 import { useCurrentFrame, useVideoConfig } from "remotion";
+import React from "react";
 import Lottie from "lottie-react";
 const Lottier = ({ data, fitMode = null, stayAtLastFrame = false }) => {
   let frame = useCurrentFrame();
