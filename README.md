@@ -38,7 +38,7 @@ import data from "./animationData.json";
 
 - **fitMode** : "fitToWidth" , "fitToHeight" , "fitToContent" **Not Required**
 
-- **stayAtLastFrame** : true or false, if true animation will stop on its last frame. **false by default**
+- **stayAtLastFrame** : true or false, if true animation will stay on its last frame. **false by default**
 
 ```jsx
 import { Sequence, useCurrentFrame } from "remotion";
